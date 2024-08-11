@@ -1,4 +1,4 @@
-import Link from "next/link";
+aimport Link from "next/link";
 import {
   Navbar,
   NavbarBrand,
@@ -41,7 +41,7 @@ export function DefaultHeader() {
 export function DefaultFooter() {
   return (
     <Footer container className="rounded-none">
-      <Footer.Copyright href="#" by="Flowbite™" year={2024} />
+      <Footer.Copyright href="#" by="Feras Alkilani™" year={2024} />
       <Footer.LinkGroup>
         <Footer.Link href="#">About</Footer.Link>
         <Footer.Link href="#">Privacy Policy</Footer.Link>
